@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+  float: left;
+  color: black;
+}
+
+.styled-table {
+  padding: 26px;
+  min-width: 300px;
+}
+
+.styled-table thead tr {
+  background-color: #aca653;
+  text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: #a39f9f;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 4px 15px;
+  text-align: left;
+}
